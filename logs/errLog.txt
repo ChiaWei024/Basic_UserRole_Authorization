@@ -1,0 +1,20 @@
+20230807	19:33:54	6633805a-480b-4200-bfd3-8c16e4933f53	Error	Not allowed by cors.
+
+20230808	19:17:42	d03be9e8-3d2b-41b0-8618-a0f78bdb9e82	TypeError	req.accepted is not a function
+
+20230808	19:17:51	1c02df74-14fc-4c20-84c5-2f2cd269daa7	TypeError	req.accepted is not a function
+
+20230808	19:17:58	d778cf7a-0b80-4753-b4db-b201cac54a87	TypeError	req.accepted is not a function
+
+20230808	19:18:15	a7d95f84-a75a-4e75-8bc0-172266a1940b	TypeError	req.accepted is not a function
+
+20230808	19:18:18	126783c3-172c-43b3-800b-c299ee9ee7f8	TypeError	req.accepted is not a function
+
+20230810	20:33:55	993fffda-0a7e-4a10-8142-216504026e8a	ReferenceError	setEmployees is not defined
+
+20230814	20:13:12	cfe2598f-d811-4a8f-a569-069f7496f82e	TypeError	res.sendStauts is not a function
+
+20230815	20:27:16	683d96f6-9e2d-424a-9d48-5a91c7bd627a	TypeError	Cannot read properties of undefined (reading 'jwt')
+
+20230817	20:38:05	74767307-2b34-4f91-a572-aed453b2b26e	SyntaxError	Unexpected token } in JSON at position 102
+
