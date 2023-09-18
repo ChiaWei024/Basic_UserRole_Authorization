@@ -7,13 +7,12 @@ require("dotenv").config();
 const verifyJWT = (req, res, next) => {
   // the authorization header might come in as lowercase or uppercase "a"
   const authHeader = req.headers.authorization || req.headers.Authorization;
-  console.log(authHeader);
   // if dont have a auth header or with auth header but not start with "Bearer "
   if (!authHeader?.startsWith("Bearer ")) {
     return res.sendStatus(401);
   }
   // authHeader: expect to see: bearer token
-  console.log(authHeader);
+  console.log("Auth header:\n" + authHeader);
 
   // verify token
   const token = authHeader.split(" ")[1];
